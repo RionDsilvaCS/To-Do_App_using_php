@@ -45,34 +45,32 @@ if(isset($_POST['submit'])){
     <div class="container my-5">
         <form method="post">
             <div class="mb-3">
-                <label class="form-label">Name</label>
+                <label class="form-label">Task Name</label>
                 <input type="text" class="form-control" 
                 name="name" autocomplete="off"
                 value=<?php echo $name;?>>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Email</label>
+                <label class="form-label">Deadline</label>
                 <input type="email" class="form-control" 
                 name="email" autocomplete="off"
                 value=<?php echo $email;?>>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Mobile</label>
+                <label class="form-label">Status</label>
                 <input type="text" class="form-control" 
                 name="mobile" autocomplete="off"
                 value=<?php echo $mobile;?>>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Password</label>
+                <label class="form-label">Working time</label>
                 <input type="text" class="form-control" 
                 name="password"
                 value=<?php echo $password;?>>
             </div>
-
-
 
             <button type="submit" class="btn btn-primary" name="submit">Update</button>
         </form>

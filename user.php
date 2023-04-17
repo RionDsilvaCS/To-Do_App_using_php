@@ -33,26 +33,24 @@ if(isset($_POST['submit'])){
     <div class="container my-5">
         <form method="post">
             <div class="mb-3">
-                <label class="form-label">Name</label>
-                <input type="text" class="form-control" name="name" autocomplete="off">
+                <label class="form-label">Task Name</label>
+                <input type="text" class="form-control" name="taskName" autocomplete="off">
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" name="email" autocomplete="off">
+                <label class="form-label">Deadline</label>
+                <input type="email" class="form-control" name="deadline" autocomplete="off">
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Mobile</label>
-                <input type="text" class="form-control" name="mobile" autocomplete="off">
+                <label class="form-label">Status</label>
+                <input type="text" class="form-control" name="status" autocomplete="off">
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Password</label>
-                <input type="text" class="form-control" name="password">
+                <label class="form-label">Working time</label>
+                <input type="text" class="form-control" name="time">
             </div>
-
-
 
             <button type="submit" class="btn btn-primary" name="submit">Submit</button>
         </form>
